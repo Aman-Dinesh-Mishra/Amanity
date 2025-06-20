@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website — a sleek, responsive, and dynamic space where I showcase my front-end development skills and design philosophy. From smooth scroll interactions to framer-motion-powered animations and dark mode finesse, this site blends functionality and aesthetics.
 
-Live Link : https://amanity-itsme.vercel.app/
+Live Link : https://miamanity.vercel.app/
 
 ## 🚀 Tech Stack
 
