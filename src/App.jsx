@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Components/Hero/Navbar/Navbar";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "./Components/Hero/Home/Home";
-import ScrollToTop from "./Components/Hero/ScrolltoTop/ScrollToTop";
+import ScrollToTop from "./Components/Hero/ScrollToTop/ScrollToTop_BROKEN";
 
 const App = () => {
   return (
