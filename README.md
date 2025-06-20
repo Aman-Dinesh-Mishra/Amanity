@@ -12,7 +12,7 @@ Live Link : https://miamanity.vercel.app/
 - **Routing & Navigation**: [React Router](https://reactrouter.com/) + [react-router-hash-link](https://www.npmjs.com/package/react-router-hash-link)
 - **Dark Mode**: Tailwind’s dark mode toggle via context API
 - **Deployment**: [Vercel](https://vercel.com/)
-- **Favicon & Theming**: Custom design for brand identity
+
 
 ## 🌗 Features
 
@@ -20,5 +20,4 @@ Live Link : https://miamanity.vercel.app/
 - 🎨 Fully responsive and accessible layout
 - 🌙 Dark/light mode with persistent state
 - 🎯 Smooth scrolling with anchor navigation
-- 🌀 Polished transitions using framer-motion
-- 🎯 Custom 404 page and favicon design
+
