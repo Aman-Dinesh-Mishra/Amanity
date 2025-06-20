@@ -39,9 +39,9 @@ const Skills = () => (
         <div key={category} className="bg-gradient-to-b from-blue-600 to-[#97d9e1] shadow-lg flex flex-col items-center gap-6 
             rounded-lg border border-blue-700 p-6 min-h-[220px] w-full transform hover:scale-105 transition duration-300">
           <h1 className="text-5xl font-bold text-white">{category}</h1>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 w-full">
-            {techs.map(([name, src]) => (
-             <div
+          <div className="w-full flex flex-wrap justify-center sm:grid sm:grid-cols-3 gap-6">
+  {techs.map(([name, src]) => (
+    <div
       key={name}
       className="flex justify-center items-center w-[90px] h-[90px] md:w-[140px] md:h-[140px] xl:w-[120px] xl:h-[120px] 
         border border-white rounded-full p-3 bg-gray-50"
@@ -53,8 +53,8 @@ const Skills = () => (
         loading="lazy"
       />
     </div>
-            ))}
-          </div>
+  ))}
+</div>
         </div>
       ))}
     </div>
