@@ -41,10 +41,18 @@ const Skills = () => (
           <h1 className="text-5xl font-bold text-white">{category}</h1>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 w-full">
             {techs.map(([name, src]) => (
-              <div key={name} className="flex justify-center items-center w-[90px] h-[90px] md:w-[140px] md:h-[140px] xl:w-[120px] xl:h-[120px] 
-                  border border-white rounded-full p-3 bg-gray-50">
-                <img src={src} className="w-full h-full object-contain" alt={name} loading="lazy" />
-              </div>
+             <div
+      key={name}
+      className="flex justify-center items-center w-[90px] h-[90px] md:w-[140px] md:h-[140px] xl:w-[120px] xl:h-[120px] 
+        border border-white rounded-full p-3 bg-gray-50"
+    >
+      <img
+        src={src}
+        className="w-full h-full object-contain"
+        alt={name}
+        loading="lazy"
+      />
+    </div>
             ))}
           </div>
         </div>
