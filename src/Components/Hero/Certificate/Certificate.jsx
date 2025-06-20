@@ -20,17 +20,17 @@ const Certificate = () => {
       
       <Marquee speed={140}>
         {certificateImages.map((src, index) => (
-          <div
-            key={`cert-${index}`}
-            className="flex-shrink-0 mx-6 w-[750px] h-[500px] flex items-center justify-center"
-          >
-            <img
-              src={src}
-              alt={`Certificate ${index + 1}`}
-              className="w-full h-full object-contain rounded border border-blue-700"
-              loading="lazy"
-            />
-          </div>
+         <div
+  key={`cert-${index}`}
+  className="flex-shrink-0 px-2 w-full max-w-[95vw] sm:max-w-[550px] md:max-w-[700px] lg:max-w-[850px] xl:max-w-[950px] flex items-center justify-center"
+>
+  <img
+    src={src}
+    alt={`Certificate ${index + 1}`}
+    className="w-full aspect-[4/3] object-contain rounded border border-blue-700"
+    loading="lazy"
+  />
+</div>
         ))}
       </Marquee>
     </section>
