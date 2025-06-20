@@ -8,7 +8,6 @@ Live Link : https://miamanity.vercel.app/
 
 - **Frontend Framework**: [React](https://reactjs.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Animations**: [framer-motion](https://www.framer.com/motion/)
 - **Routing & Navigation**: [React Router](https://reactrouter.com/) + [react-router-hash-link](https://www.npmjs.com/package/react-router-hash-link)
 - **Dark Mode**: Tailwind’s dark mode toggle via context API
 - **Deployment**: [Vercel](https://vercel.com/)
