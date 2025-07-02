@@ -27,7 +27,7 @@ const Navbar = () => {
           <button onClick={() => setShowMenu(!showMenu)} className="text-4xl text-blue-700 font-bold">
             ☰
           </button>
-          <h1 className="text-4xl font-bold text-blue-700">Amanity</h1>
+          <h1 className="text-4xl font-bold text-blue-700">Aman</h1>
         </div>
 
         <div
