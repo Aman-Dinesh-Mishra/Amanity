@@ -21,10 +21,10 @@ const Home = () => {
           Software Enthusiast & Coder crafting web experiences & learning AI
         </p>
         <div className="flex space-x-6 text-4xl mb-8 dark:text-white">
-          <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/aman-mishra-6158a9308" target="_blank" rel="noreferrer">
             <FaLinkedin />
           </a>
-          <a href="https://github.com/" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Aman-Dinesh-Mishra" target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
           <a href="https://twitter.com/" target="_blank" rel="noreferrer">
@@ -32,7 +32,7 @@ const Home = () => {
           </a>
         </div>
         <a
-  href="https://drive.google.com/file/d/11zAaH4Gx8qkAXUZYEgAqPGb1bvjizglp/view?usp=drive_link"
+  href="https://drive.google.com/file/d/1XJ7p2bhmt7UnmaGP_Y117nRga7ff6ahv/view?usp=drive_link"
   target="_blank"
   rel="noopener noreferrer"
   className="text-xl font-semibold px-6 py-3 bg-blue-700 hover:bg-blue-600 text-white dark:bg-white dark:text-black dark:font-bold rounded-full transition-all"
